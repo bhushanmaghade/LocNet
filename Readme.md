@@ -1,10 +1,10 @@
-# 🛰️ LocNet: GNSS Position Optimizer
+# LocNet: GNSS Position Optimizer
 
 **LocNet** is an advanced tool designed to estimate the **True Position** from noisy GNSS (Global Navigation Satellite System) data. It leverages a combination of statistical methods, recursive estimation, and deep learning architectures to correct GPS drift and improve accuracy.
 
 ---
 
-## 📖 Overview
+## Overview
 
 GPS sensors often suffer from noise, drift, and signal multipath errors. **LocNet** addresses these issues by employing four distinct approaches to refine the coordinate data:
 
@@ -15,7 +15,7 @@ GPS sensors often suffer from noise, drift, and signal multipath errors. **LocNe
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 -   **Multi-Model Analysis**: Compare results from deterministic math models vs. AI models side-by-side.
 -   **Interactive Dashboard**: Built with [Streamlit](https://streamlit.io/) for a seamless, user-friendly experience.
@@ -28,7 +28,7 @@ GPS sensors often suffer from noise, drift, and signal multipath errors. **LocNe
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 -   **Python 3.8** or newer
@@ -49,7 +49,7 @@ GPS sensors often suffer from noise, drift, and signal multipath errors. **LocNe
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1.  **Start the Application**
     Run the Streamlit app from your terminal:
@@ -72,7 +72,7 @@ GPS sensors often suffer from noise, drift, and signal multipath errors. **LocNe
 
 ---
 
-## 🧠 Methodologies
+## Methodologies
 
 ### 1. Statistical Median
 Calculates the geometric median of the latitude and longitude to provide a stable reference point, effectively ignoring outliers.
@@ -96,7 +96,7 @@ Treats the GPS path as an image.
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 -   `streamlit`
 -   `pandas`
@@ -108,7 +108,7 @@ Treats the GPS path as an image.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](#).
 
