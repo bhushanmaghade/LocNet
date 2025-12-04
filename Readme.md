@@ -1,6 +1,6 @@
 # LocNet: GNSS Position Optimizer
 
-**LocNet** is an advanced tool designed to estimate the **True Position** from noisy GNSS (Global Navigation Satellite System) data. It leverages a combination of statistical methods, recursive estimation, and deep learning architectures to correct GPS drift and improve accuracy.
+**LocNet** is a tool designed to estimate the **True Position** from noisy GNSS (Global Navigation Satellite System) data. It leverages a combination of statistical methods, recursive estimation, and deep learning architectures to correct GPS drift and improve accuracy.
 
 ---
 
